@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+
+@theme{
+  --color-blue-color: #3B82F6;
+}
+
+body,html{
+  height: 100%;
+  width: 100%;
+}
+
+#root{
+  height: 100%;
+  width: 100%;
+}
+
+.scroll-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.wrap-normal {
+  white-space: pre-wrap;  
+  word-wrap: break-word;  
+  overflow-wrap: break-word; 
+  word-break: break-word;  
+}
+HTML/JSX Exa
